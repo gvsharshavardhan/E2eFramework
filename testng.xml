@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="XYZ Bank Suite">
+    <test name="account and customer related tests">
+        <classes>
+            <class name="XYZBankTests.BankAccountAndCustomerTests">
+                <methods>
+                    <include name="testAddCustomer"></include>
+                </methods>
+            </class>
+            <class name="XYZBankTests.BankDepositWithdrawTests">
+                <methods>
+                    <exclude name="testDeposit"></exclude>
+                </methods>
+            </class>>
+        </classes>
+    </test>
+</suite>
