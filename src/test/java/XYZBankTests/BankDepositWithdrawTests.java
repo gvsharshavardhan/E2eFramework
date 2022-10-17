@@ -4,6 +4,7 @@ import XYZBankPages.BankHomePage;
 import XYZBankPages.BankManagerLoginPage;
 import XYZBankPages.CustomerLoginPage;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class BankDepositWithdrawTests extends BaseTest {

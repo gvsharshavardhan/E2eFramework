@@ -9,7 +9,6 @@
     <test name="account and customer related tests">
         <classes>
             <class name="XYZBankTests.BankAccountAndCustomerTests"/>
-            <class name="XYZBankTests.BankDepositWithdrawTests"/>
         </classes>
     </test>
 </suite>

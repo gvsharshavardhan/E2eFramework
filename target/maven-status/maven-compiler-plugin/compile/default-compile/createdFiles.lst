@@ -1,0 +1,9 @@
+XYZBankPages\BasePage.class
+roughwork\Dem.class
+util\ReportManager.class
+util\MyListener.class
+util\SleepHelper.class
+driver\DriverManager.class
+XYZBankPages\BankManagerLoginPage.class
+XYZBankPages\BankHomePage.class
+XYZBankPages\CustomerLoginPage.class

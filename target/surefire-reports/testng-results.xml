@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-15T16:47:09 GMT-04:00" name="XYZ Bank Suite" finished-at="2022-10-15T16:47:46 GMT-04:00" duration-ms="36499">
+    <groups>
+    </groups>
+    <test started-at="2022-10-15T16:47:09 GMT-04:00" name="account and customer related tests" finished-at="2022-10-15T16:47:46 GMT-04:00" duration-ms="36499">
+      <class name="XYZBankTests.BankAccountAndCustomerTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:XYZBankTests.BankAccountAndCustomerTests@73ee04c8]" started-at="2022-10-15T16:47:09 GMT-04:00" name="setUp" finished-at="2022-10-15T16:47:13 GMT-04:00" duration-ms="3914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="harshaTest()[pri:0, instance:XYZBankTests.BankAccountAndCustomerTests@73ee04c8]" started-at="2022-10-15T16:47:13 GMT-04:00" name="harshaTest" finished-at="2022-10-15T16:47:13 GMT-04:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- harshaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:XYZBankTests.BankAccountAndCustomerTests@73ee04c8]" started-at="2022-10-15T16:47:13 GMT-04:00" name="tearDown" finished-at="2022-10-15T16:47:14 GMT-04:00" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:XYZBankTests.BankAccountAndCustomerTests@73ee04c8]" started-at="2022-10-15T16:47:14 GMT-04:00" name="setUp" finished-at="2022-10-15T16:47:16 GMT-04:00" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomer()[pri:0, instance:XYZBankTests.BankAccountAndCustomerTests@73ee04c8]" started-at="2022-10-15T16:47:16 GMT-04:00" name="testAddCustomer" finished-at="2022-10-15T16:47:26 GMT-04:00" duration-ms="9999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:XYZBankTests.BankAccountAndCustomerTests@73ee04c8]" started-at="2022-10-15T16:47:26 GMT-04:00" name="tearDown" finished-at="2022-10-15T16:47:27 GMT-04:00" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:XYZBankTests.BankAccountAndCustomerTests@73ee04c8]" started-at="2022-10-15T16:47:27 GMT-04:00" name="setUp" finished-at="2022-10-15T16:47:29 GMT-04:00" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerAndAddAccount()[pri:0, instance:XYZBankTests.BankAccountAndCustomerTests@73ee04c8]" started-at="2022-10-15T16:47:29 GMT-04:00" name="testAddCustomerAndAddAccount" finished-at="2022-10-15T16:47:45 GMT-04:00" duration-ms="15945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerAndAddAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:XYZBankTests.BankAccountAndCustomerTests@73ee04c8]" started-at="2022-10-15T16:47:45 GMT-04:00" name="tearDown" finished-at="2022-10-15T16:47:46 GMT-04:00" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- XYZBankTests.BankAccountAndCustomerTests -->
+    </test> <!-- account and customer related tests -->
+  </suite> <!-- XYZ Bank Suite -->
+</testng-results>

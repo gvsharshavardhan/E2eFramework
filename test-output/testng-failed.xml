@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [XYZ Bank Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="account and customer related tests(failed)">
+    <classes>
+      <class name="XYZBankTests.BankDepositWithdrawTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testWithDraw"/>
+          <include name="setUp"/>
+          <include name="testDeposit"/>
+        </methods>
+      </class> <!-- XYZBankTests.BankDepositWithdrawTests -->
+      <class name="XYZBankTests.BankAccountAndCustomerTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testAddCustomerAndAddAccount"/>
+          <include name="setUp"/>
+          <include name="testAddCustomer"/>
+        </methods>
+      </class> <!-- XYZBankTests.BankAccountAndCustomerTests -->
+    </classes>
+  </test> <!-- account and customer related tests(failed) -->
+</suite> <!-- Failed suite [XYZ Bank Suite] -->

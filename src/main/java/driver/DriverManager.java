@@ -10,39 +10,43 @@ import java.time.Duration;
 
 public class DriverManager {
 
-    private static WebDriver driver ;
+
     private static WebDriverWait wait;
+
+    private static final ThreadLocal<WebDriver> tl = new ThreadLocal<>();
 
     private DriverManager() {
     }
 
-    //@beforemethod
-    public static void init() {
 
+    public static void init() {
+        WebDriver driver;
         String browser = "chrome";
 
-        if(browser.equalsIgnoreCase("firefox")){
+        if (browser.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
-             driver = new FirefoxDriver();
-        }else{
+            driver = new FirefoxDriver();
+            tl.set(driver);
+        } else {
             WebDriverManager.chromedriver().setup();
-             driver = new ChromeDriver();
+            driver = new ChromeDriver();
+            tl.set(driver);
         }
-         wait = new WebDriverWait(driver, Duration.ofSeconds(3));
 
+        wait = new WebDriverWait(getDriver(), Duration.ofSeconds(3));
     }
 
-    public static WebDriverWait getExplicitWait(){
+
+    public static WebDriverWait getExplicitWait() {
         return wait;
     }
 
-    public static WebDriver getDriver(){
-        return driver;
+    public static WebDriver getDriver() {
+        return tl.get();
     }
 
-    public static void quitDriver(){
-        driver.quit();
+    public static void quitDriver() {
+        tl.get().quit();
     }
-
 
 }
